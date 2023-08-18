@@ -1,3 +1,4 @@
+import atexit
 import RPi.GPIO as GPIO
 import time
 
@@ -15,9 +16,8 @@ time.sleep(1)
 GPIO.output(LED_PIN, GPIO.LOW)
 time.sleep(1)
 
-
-
-
-
+def exit_handler():
+    GPIO.cleanup()
+atexit.register(exit_handler)
 
 
