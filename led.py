@@ -13,18 +13,15 @@ lcd_d7 = 22
 lcd_backlight = 2
 
 # Define LCD column and row size for 16x2 LCD.
-lcd_columns = 20
-lcd_rows = 3
+lcd_columns = 16
+lcd_rows = 2
 
 lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows, lcd_backlight)
 
-lcd.message('Berries n \n Cream')
 
-lcd.set_cursor(4,7)
+lcd.set_cursor(1,2)
+lcd.message('knock knock \n Mr.Zoglahmi')
 
-time.sleep(5)
 
-lcd.clear()
-lcd.set_cursor(5,7)
 
-lcd.message('How are you ?')
+
