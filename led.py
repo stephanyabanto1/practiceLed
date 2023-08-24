@@ -25,7 +25,7 @@ queen = lcd.message('hi')
 time.sleep(2)
 
 lcd.set_cursor(3,0)
-lcd.message(2)
+lcd.message('Hi')
 clear(queen)
 
 
