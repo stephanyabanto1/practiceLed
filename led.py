@@ -22,7 +22,7 @@ lcd.set_cursor(0,0)
 
 
 
-lcd.message('hi')
+lcd.message('To tell you the truth ')
 
 lcd.clear()
 
