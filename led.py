@@ -23,6 +23,9 @@ while(True):
         # num = str(i)
         lcd.set_cursor(i,0)
         lcd.message('How are you?')
+        lcd.set_cursor(i-16,0)
+        lcd.message('How are you?')
+
         time.sleep(0.2)
         lcd.clear()
     # lcd.clear()
