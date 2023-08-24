@@ -13,7 +13,7 @@ dB7 = 22
 
 #initialize the pins with the 
 
-lcd = LCD.Adafruit_CharLCD(rs_pin, ena_pin, dB4. dB5, dB6, dB7 )
+lcd = LCD.Adafruit_CharLCD(rs_pin, ena_pin, dB4, dB5, dB6, dB7 )
 
 lcd.message('Hello World')
 
