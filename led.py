@@ -1,7 +1,6 @@
 import time
 import Adafruit_CharLCD as LCD
 
-GPIO.setwarnings(False)
 
 #rasberry pi pin set up 
 
