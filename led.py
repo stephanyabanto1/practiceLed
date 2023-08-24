@@ -18,22 +18,31 @@ lcd_rows = 2
 
 lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows, lcd_backlight)
 
-lcd.set_cursor(1,4)
-
-blink = True
-
-lcd.blink(True)
-
-lcd.message('To tell you the truth ')
-
-time.sleep(3)
-
-lcd.clear()
-
-lcd.home()
+for i in lcd_columns:
+    lcd.message(i)
 
 
-lcd.message('how are you ')
+
+# lcd.set_cursor(0,)
+
+
+
+# def numberDemonstration():
+# x = 1
+# while x<10:
+#     lcd.message()
+#     x=x+1
+
+
+
+# numberDemonstration()
+
+
+
+
+
+
+
 
 
 
