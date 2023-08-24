@@ -20,13 +20,12 @@ lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_c
 
 lcd.set_cursor(0,0)
 
-queen = lcd.message('hi')
+lcd.message('hi')
 
 time.sleep(2)
 
-lcd.set_cursor(3,0)
-lcd.message('Hi')
-clear(queen)
+lcd.set_cursor(1,0)
+lcd.message('Y')
 
 
 
