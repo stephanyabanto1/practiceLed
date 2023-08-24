@@ -25,10 +25,10 @@ while(True):
     #     lcd.message('How are you?')
     #     time.sleep(0.2)
     #     lcd.clear()
+    lcd.clear()
     lcd.set_left_to_right()
     lcd.message('Hello')
     time.sleep(0.2)
-    lcd.clear()
 
 
 
