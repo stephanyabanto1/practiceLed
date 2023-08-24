@@ -25,3 +25,6 @@ lcd.set_cursor(4,7)
 time.sleep(5)
 
 lcd.clear()
+lcd.set_cursor(5,7)
+
+lcd.message('How are you ?')
