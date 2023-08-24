@@ -22,10 +22,12 @@ lcd.set_cursor(0,0)
 
 lcd.message('hi')
 
-time.sleep(2)
+lcd.move_right()
 
-lcd.set_cursor(1,0)
-lcd.message('Y')
+
+
+
+
 
 
 
