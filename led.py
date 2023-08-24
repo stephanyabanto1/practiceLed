@@ -22,8 +22,7 @@ lcd.set_cursor(1,4)
 
 blink = True
 
-blink(blink)
-
+lcd.blink(True)
 
 lcd.message('To tell you the truth ')
 
