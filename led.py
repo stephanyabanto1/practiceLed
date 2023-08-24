@@ -1,10 +1,7 @@
 import time
 import Adafruit_CharLCD as LCD
 
-#!/usr/bin/python
-# Example using a character LCD connected to a Raspberry Pi
-import time
-import Adafruit_CharLCD as LCD
+
 
 # Raspberry Pi pin setup
 lcd_rs = 25
@@ -26,8 +23,7 @@ lcd.message('Hello\nworld!')
 
 time.sleep(5.0)
 lcd.clear()
-text = raw_input("Type Something to be displayed: ")
-lcd.message(text)
+
 
 # Wait 5 seconds
 time.sleep(5.0)
