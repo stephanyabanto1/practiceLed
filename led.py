@@ -1,21 +1,18 @@
-import atexit
-import RPi.GPIO as GPIO
 import time
+import Adafruit_CharLCD as LCD
 
-#state the variable 
+#rasberry pi pin set up 
 
-LED_PIN = 23
+rs_pin = 25
+ena_pin = 24
+dB4 = 23
+dB5 = 17
+dB6 = 18
+dB7 = 22
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(LED_PIN, GPIO.OUT)
+#initialize the pins with the 
 
+lcd = LCD.Adafruit_CharLCD(rs_pin, ena_pin, dB4. dB5, dB6, dB7 )
 
-GPIO.output(LED_PIN, GPIO.HIGH)
-time.sleep(1)
-
-GPIO.output(LED_PIN, GPIO.LOW)
-time.sleep(1)
-
-
-
+lcd.message('Hello World')
 
