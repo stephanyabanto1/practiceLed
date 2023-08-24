@@ -27,6 +27,8 @@ while(True):
     #     lcd.clear()
     lcd.set_left_to_right()
     lcd.message('Hello')
+    time.sleep(0.2)
+    lcd.clear()
 
 
 
