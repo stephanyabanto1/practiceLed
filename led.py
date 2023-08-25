@@ -21,13 +21,14 @@ lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_c
 while(True):
     for i in range(17):
         # num = str(i)
-        lcd.set_cursor(i-7,0)
+        lcd.clear()
+        lcd.set_cursor(i-1,0)
         lcd.message('HI')
         # lcd.set_cursor(i-17,0)
         # lcd.message('HI')
 
         time.sleep(0.2)
-        lcd.clear()
+        
     # lcd.clear()
     # lcd.set_left_to_right()
     # lcd.message('Hello')
