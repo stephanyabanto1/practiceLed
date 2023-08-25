@@ -35,13 +35,16 @@ while(True):
         
     lcd.clear()
     message = 'Hello'
+    lcd.move_left()
+    lcd.move_left()
+    lcd.move_left()
+    lcd.move_left()
+    lcd.move_left()
     lcd.message(message)
-    for i in range(lcd_columns-len(message)):
+    for i in range(lcd_columns):
         time.sleep(0.2)
         lcd.move_right()
-    for i in range(lcd_columns-len(message)):
-        time.sleep(0.2)
-        lcd.move_left()
+    
 
 
 
