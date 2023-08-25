@@ -35,8 +35,8 @@ while(True):
         
     lcd.clear()
     message = 'Hello'
-    lcd.message(message):
-    for i in range (5)
+    lcd.message(message)
+    for i in range (5):
         lcd.move_left()
     for i in range(17):
         time.sleep(0.2)
