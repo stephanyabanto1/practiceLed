@@ -39,6 +39,7 @@ while(True):
     for i in range (5):
         lcd.move_left()
     for i in range(17):
+        lcd.set_cursor(i-1,0)
         time.sleep(0.2)
         lcd.move_right()
     
