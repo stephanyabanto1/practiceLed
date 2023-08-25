@@ -30,6 +30,7 @@ while(True):
         lcd.set_cursor(i,0)
         lcd.message(message)
         time.sleep(0.2)
+        lcd.clear()
         
     
 
