@@ -39,6 +39,9 @@ while(True):
     for i in range(lcd_columns-len(message)):
         time.sleep(0.2)
         lcd.move_right()
+    for i in range(lcd_columns-len(message)):
+        time.sleep(0.2)
+        lcd.move_left()
 
 
 
