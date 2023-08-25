@@ -22,7 +22,8 @@ while(True):
     for i in range(17):
         # num = str(i)
         lcd.clear()
-        lcd.set_cursor(i-1,0)
+        led_set_cursor(-1,0)
+        lcd.set_cursor(i+1,0)
         lcd.message('HI')
         # lcd.set_cursor(i-17,0)
         # lcd.message('HI')
