@@ -23,7 +23,7 @@ while(True):
         # num = str(i)
         lcd.set_cursor(i,0)
         lcd.message('HI')
-        lcd.set_cursor(i-16,0)
+        lcd.set_cursor(i-17,0)
         lcd.message('HI')
 
         time.sleep(0.2)
