@@ -35,7 +35,7 @@ while(True):
         
     lcd.clear()
     message = 'Hello'
-    lcd.message(message)
+    lcd.message(message):
     for i in range (5)
         lcd.move_left()
     for i in range(17):
